@@ -1,5 +1,7 @@
+import { HorizonsTest } from './temp/horizons-test';
+
 function App() {
-  return <></>;
+  return <HorizonsTest />;
 }
 
 export default App;
