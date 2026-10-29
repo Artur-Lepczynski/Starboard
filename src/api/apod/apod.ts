@@ -1,4 +1,4 @@
-import { buildUrl, fetchJson } from './client';
+import { buildUrl, fetchJson } from '../core/client';
 
 // APOD no longer works through api.nasa.gov (it returns placeholder data), so this uses the APOD Basic feed on science.nasa.gov.
 const APOD_URL = 'https://science.nasa.gov/wp-json/wp/v2/apod-basic';

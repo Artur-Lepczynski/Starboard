@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { buildUrl } from '../api/client';
+import { buildUrl } from '../api/core/client';
 import './horizons-test.css';
 
 const HORIZONS_URL = '/api/horizons';

@@ -1,4 +1,4 @@
-import { buildUrl, fetchJson, type Params } from './client';
+import { buildUrl, fetchJson, type Params } from '../core/client';
 
 const HORIZONS_PATH = '/api/horizons';
 
